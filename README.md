@@ -1,45 +1,42 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome USER_NAME,
+# go-lanza
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+# Project Goals
+The aim of this project was to create a fully responsive, interactive website - this website will be a tourism site for the island of Lanzarote
+located in the Canary Islands.
 
-## Gitpod Reminders
+## User Goals
+* As a new user, I want to know where the best places to eat are on the Island. 
+* As a new user, I want to have visual aids so I can see what is being described and be more informed. 
+* As a new user, I want to be able to access any social media accounts the tourism site has to find additional information.
+* As a new user I would like to find a contact form so I can get in touch for any queries.
+* As a new user, I want a clear navigation menu, so I can operate the site easily.
+* As a returning user, I would like to look for further content and information to heighten my time on the Island.
+* As a returning user, I want to be able to see find the location of other attractions and points of interest.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Owner Goals
+* Publicity for the attractions and experiances that Lanzarote has to offer. 
+* Bigger audience so as many people as possible are aware of what you can do.
+* To be able to answer and reply to queires users may have.
+* Advertise attractions and resturants that can be located on lanzarote.
+* Offer an interactive site that keeps users interested.
+* Use interactive methods such as Google Maps so users can ascertain the location of points of interest.
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+## User Potential
+* Potential vistors of Lanzarote.
+* Researchers wanting to know more about Lanzarote. 
+* Past visitors of Lanzarote.
+* Residents of Lanzarote.  
 
-Another blue button should appear to click: *Open Browser*.
+## This website
+* Offers a clean, consise and simplistic journey into finding out what there is to do and explore on the Island of Lanzarote.
+* Offers a means to use Google Maps in order to find an accurate location for the attractions.
+* Provides clear information and is fully responsive. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#Wireframes
 
-A blue button should appear to click: *Make Public*,
+#Features
 
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+#Technology used
