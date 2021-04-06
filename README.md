@@ -38,5 +38,8 @@ located in the Canary Islands.
 #Wireframes
 
 #Features
+* Functioning Nav bar with working links.
+* Responsive images.
+* Functioning contact form. 
 
 #Technology used
