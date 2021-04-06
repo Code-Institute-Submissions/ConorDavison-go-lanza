@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+nav {
+    float: right;
+    margin: 0px;
+    padding: 5px, 0px,5px 30px;
+}
+
+body {
+    background-image: url(../assets/img/golanza.png);
+}
