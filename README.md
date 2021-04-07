@@ -1,45 +1,129 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-# go-lanza
+# Go Lanza
 
-# Project Goals
-The aim of this project was to create a fully responsive, interactive website - this website will be a tourism site for the island of Lanzarote
-located in the Canary Islands.
+## Project Goals
+This is the main website for a fictitious tourism company who aim to educate visitors and potential visitors to the island of Lanzarote. 
+The Go Lanza website will be responsive on all devices focusing on mobile first design, also ensuring visitors have a unique user experience. 
+This website will be aimed at users who are looking to travel to Lanzarote and want to know the best spots for food, tourist attractions and the lesser-known attractions the island has to offer. 
+All of this readily available information will be displayed clearly and in hierarchy of importance on each page. 
+The navigation bar, which allows you to readily access specific information on the site, interactive features, internal website links showing the user further information on specific topics, and aesthetically pleasing, 
+relevant imagery of Lanzarote and it's attractions will all be employed to offer the user a wholesome and informative experience. 
+Furthermore, users will have the visual and interactive aid of Google Maps to geographically understand where all these attractions are located on the island.
 
-## User Goals
+## User Stories
+
+### User Goals
+* As a user, I want to be able to access the website, regardless of the device I am using.
+* As a user, I want to be able to easily navigate to other sections of the website regardless of the current section I'm viewing.
+* As a user, I expect all links of the site to be in full working order - and to be able to easily access any social media accounts relative to the company. 
+
+### New User Goals
+* As a new user, I want it to be immdiately obvious what the website is about and what it can offer me.
 * As a new user, I want to know where the best places to eat are on the Island. 
 * As a new user, I want to have visual aids so I can see what is being described and be more informed. 
 * As a new user, I want to be able to access any social media accounts the tourism site has to find additional information.
 * As a new user I would like to find a contact form so I can get in touch for any queries.
 * As a new user, I want a clear navigation menu, so I can operate the site easily.
+
+### Returning User Goals
 * As a returning user, I would like to look for further content and information to heighten my time on the Island.
 * As a returning user, I want to be able to see find the location of other attractions and points of interest.
+* As a returning user, I want to find out more detailed information on specific locations, attractions and restaurants.
 
-## Owner Goals
+### Owner Goals
 * Publicity for the attractions and experiances that Lanzarote has to offer. 
-* Bigger audience so as many people as possible are aware of what you can do.
+* Bigger audience so as many people as possible are aware of what you can do when visiting.
 * To be able to answer and reply to queires users may have.
 * Advertise attractions and resturants that can be located on lanzarote.
 * Offer an interactive site that keeps users interested.
 * Use interactive methods such as Google Maps so users can ascertain the location of points of interest.
+* The content provided within this website is primarily to ensure users are aware of what can be experianced once they arrive. 
+  It is not designed to be a one stop site were you can book an entire holiday with flights and accomodation.
+  This websites primary focus is to be an informal, casual website people can visit at their leisure to find inspiration for the experiances they can pursue should they wish to.
 
 
-## User Potential
+### User Potential
 * Potential vistors of Lanzarote.
 * Researchers wanting to know more about Lanzarote. 
 * Past visitors of Lanzarote.
 * Residents of Lanzarote.  
 
-## This website
+### This website
 * Offers a clean, consise and simplistic journey into finding out what there is to do and explore on the Island of Lanzarote.
 * Offers a means to use Google Maps in order to find an accurate location for the attractions.
 * Provides clear information and is fully responsive. 
 
-#Wireframes
+## User Design
 
-#Features
+### Strategy
+* With the main goal for this website to educate users into being aware of what you can do in Lanzarote the use of simple, 
+  aesthetically pleasing and relevant imagery will allow the user to focus on the content, without being distracted. 
+  The design of the site needs to complement the content it is delivering. 
+* The contact form allows customers to engage further with the Go Lanza company, it ensures that any further information needed can be requested. 
+  To ensure this happens, the website needs to be engaging with an suitable user experience to keep the visitor on the site.
+* This website is aimed at users who want to be aware of the experiences Lanzarote has to offer. 
+  There is no pressure to pursue these attractions. Moreover, there are different types of attractions to suit different types of potential users. T
+  he main attractions that Lanzarote is famous for, the lesser-known attractions which might suit users looking for a more subtle experience and the restaurants that can be visited for anyone who wants to prioritise enjoying highly rated food.
+
+### Scope
+* Responsive website for any viewing device size.
+* Responsive and interactive navigation bar.
+* Relevant images showing the attractions mentioned on the site and useful information accompanying the attractions.
+* Implementation of API's to display information to the user.
+* Producing and interactive website with clickable features that allow the user to find further information about the different attractions.
+* A contact page that includes a simple form that sends emails using Emailjs.
+* Internal page links that allow the user to navigate the website efficiently.
+
+#### Future Scope
+**Potential for future implementation**
+* An 'About' section.
+* A seciton that allows past visitors to the mentioned attractions to leave reviews.
+* The ability for users to add further attractions not yet mentioned on the site.
+* An interactive blog or newsletter. 
+
+### Structure
+* Top level - 
+    * Simple title with navigation in header. This will be responsive and across all pages of website.
+* Body - 
+    * Main elements found here, depicting important information, relavant to the current page user is on.
+    * There will be button elements that enable the user to navigate the content easily and simply.
+    * Dependent on the page, there will be images with accompanying information for the user to discover.
+* Footer - 
+    * Footer section will hold any links to social media accounts
+    * Copyright information also stored here. 
+
+
+### Design
+
+#### Color Scheme
+* The color of the scheme of the site was decided by using natural warm colors that can be easily associated with a sunny destination such as Lanzarote.
+* The color of #e35c27, complements the main and overall color dervived from the backfround image. 
+* Where suitable the color black was used for text against a white background, these are contrasting colors that allow the user to easily read the information.
+* With a neutral background color, the images used would not be too contrasting on the site when loaded.  
+
+#### Typography
+* Two fonts were used throughout this website. Font utilised for the logo and headings is Londrina. The second font utilised was the Montserrat font. Both of these fonts are of the serif typeface, therefore Sans Serif will be used as the fallback font in case there is an issue when importing the fonts, or browsers not supporting these. 
+  These fonts were imported via Google Fonts and both completement each other giving a visually pleasing user experience.
+
+#### Imagery
+* Images of the attractions were of vital importance as it needed to showcase the attractions highlighted by the website. 
+* Font icons will be used throughout the website imported from [Font Awesome](https://fontawesome.com/). 
+  These will be used to further emphasise the different sections of the website. 
+  Using these icons adds a simple, effective and a subtle touch to the site that allows the user to understand what each section relates to. 
+  The icons will be relevant to the different section headings of the site.
+
+# Wireframes
+
+
+# Features
 * Functioning Nav bar with working links.
 * Responsive images.
 * Functioning contact form. 
 
-#Technology used
+# Technology Used
+## syntax
+## frameworks & libraries
+
+# Testing
+# Deployment 

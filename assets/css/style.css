@@ -8,6 +8,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/golanza.png);
+    background-position: center center;
+	background-size: cover;
 }
 
 #title {
