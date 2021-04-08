@@ -22,7 +22,14 @@ body {
 }
 
 h1 {
-    letter-spacing: 3px;
+    letter-spacing: 10px;
+    color: #e35c27;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: 10px;
     color: #e35c27;
 }
 
@@ -35,9 +42,9 @@ header{
 nav {
     display: inline-flex;
     float: right;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 20px;
-    padding: 5px, 0px, 5px, 30px;
+    padding: 5px, 0px, 0px, 10px;
 }
 
 #nav li {
@@ -51,19 +58,18 @@ nav {
     text-decoration: none;
 	color: #e35c27;
 	margin: 5px;
-	padding: 5px;
 	text-transform: uppercase;
 }
 
 #nav a:hover {
 	color: #e35c27;
 	transition: 0.1s;
-	border-top: 2px solid #e35c27;
-	border-bottom: 2px solid #e35c27;
+	border-top: 1px solid #e35c27;
+	border-bottom: 1px solid #e35c27;
     text-transform: uppercase;
 }
 
-/*---*/
+/*body*/
 #main-div {
     text-align: center;
 }
@@ -71,15 +77,55 @@ nav {
 #main-div p {
     width: 50%;
     margin: auto;
+    margin-bottom: 15px;
 }
+
+/*three sections*/
+.three-sections button{
+    position: relative;
+    clear: both;
+    margin:0 auto
+}
+
+.food-div {
+    background-color:rgba(255, 255, 255, 0.5);
+    border: solid black;
+}
+.visit-div {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid black;
+}
+.gem-div {
+    background-color: rgba(255, 255, 255, 0.5);;
+    border: solid black;
+}
+
+
 
 
 
 /*---Footer ---*/
 .social-icons {
-	font-size: xx-large;
-	margin: 10px;
+	font-size: 50px;
+	margin: 30px;
 	display: inline;
 	margin-top: 10px;
-	color: black;
+	color: white;
+    
+}
+
+.icon-div{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.icon-div a {
+    text-decoration: none;
+}
+
+
+.icon-div i:hover{
+    color: #d9534f;
+	transition: 0.1s;
 }

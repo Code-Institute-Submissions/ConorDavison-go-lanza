@@ -1,100 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Go Lanza</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="row">
-            <div class="container-fluid col-6" id="title">
-                <a href="index.html">
-                    <h1>Go Lanza</h1>
-                </a>
-            </div>
-            <div class="col-6">
-                <nav id="nav">
-                    <ul>
+      <div class="jumbotron" id="title">
+        <a href="index.html">
+          <h1>Go Lanza</h1>
+        </a>
+      </div>
 
-                        <li><a href="index.html">Home</a></li>
+      <div class="row justify-content-center">
+        <nav class="navbar navbar-expand-md navbar-light" id="nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                        <li><a href="food.html">Food</a></li>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
 
-                        <li><a href="visit.html">Places to Visit</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="food.html">Food</a>
+              </li>
 
-                        <li><a href="gems.html">Hidden Gems</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="visit.html">Places to Visit</a>
+              </li>
 
-                        <li><a href="enquire.html">Enquire</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="gems.html">Hidden Gems</a>
+              </li>
 
-                    </ul>
-                </nav>
-            </div>
-        </div>
+              <li class="nav-item">
+                <a class="nav-link" href="enquire.html">Enquire</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <hr>
+    <hr />
 
     <div id="main-div">
-        <p>
-            Welcome to Go Lanza! This website aims to give you a little insight into the experiances to be had on the
-            island of Lanzarote.
-            Please, navigate through this site to find the best spots for food, the main attractions and the hidden gems
-            that have been found from previous visits.
-            There is fun to be had for everyone who visits this historic and magical island.
-        </p>
+      <p>
+        Welcome to Go Lanza! This website aims to give you a little insight into
+        the experiances to be had on the island of Lanzarote. Please, navigate
+        through this site to find the best spots for food, the main attractions
+        and the hidden gems that have been found from previous visits. There is
+        fun to be had for everyone who visits this historic and magical island.
+      </p>
 
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Food</h2>
-                <p>Lanzarote is a haven of excellent food, with something for everyone.</p>
-                <button>See more here!</button>
-            </div>
-            <div class="col-md-4">
-                <h2>Places to Visit</h2>
-                <p>As lovely as sitting around the pool with a cocktail is, if you feel like exploring Lanzarote offers 
-                    amazing experiances</p>
-                <button>Check it out!</button>
-                
-            </div>
-            <div class="col-md-4">
-                <h2>Hidden Gems</h2>
-                <p>See the hidden gems past visitors have found, the lesser known wonders of Lanzarote</p>
-                <button>Show me!</button> 
-            </div>
+      <div class="row three-sections">
+        <div class="col-md-4 food-div">
+          <h2>Food</h2><i class="fas fa-utensils"></i>
+          <p>
+            Lanzarote is a haven of excellent food, with something for everyone.
+          </p>
+          <a href="food.html">
+            <button class="btn btn-outline-danger">Explore</button>
+          </a>
         </div>
-
+        <div class="col-md-4 visit-div">
+          <h2>Places to Visit</h2><i class="fas fa-binoculars"></i>
+          <p>
+            As lovely as sitting around the pool with a cocktail is, if you feel
+            like exploring Lanzarote offers amazing experiances
+          </p>
+          <a href="visit.html">
+            <button class="btn btn-outline-danger">Explore</button>
+          </a>
+        </div>
+        <div class="col-md-4 gem-div">
+          <h2>Hidden Gems</h2><i class="fas fa-gem"></i>
+          <p>
+            See the hidden gems past visitors have found, the lesser known
+            wonders of Lanzarote
+          </p>
+          <a href="gems.html">
+            <button class="btn btn-outline-danger">Explore</button>
+          </a>
+        </div>
+      </div>
     </div>
 
-
-
-
-
-
     <footer>
-        <div>
-            <div class="col-md-12">
-                <a href="https://twitter.com/?lang=en-gb" target="_blank"><i
-                        class="fab fa-twitter-square social-icons"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i
-                        class="fab fa-instagram social-icons text"></i></a>
-                <a href="https://en-gb.facebook.com/" target="_blank"><i
-                        class="fab fa-facebook-square social-icons"></i></a>
-            </div>
+      <div class="icon-div">
+        <div class="col-md-12">
+          <a href="https://twitter.com/?lang=en-gb" target="_blank"
+            ><i class="fab fa-twitter-square social-icons"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram social-icons text"></i
+          ></a>
+          <a href="https://en-gb.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook-square social-icons"></i
+          ></a>
         </div>
-
-
-
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
