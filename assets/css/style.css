@@ -70,11 +70,11 @@ nav {
 }
 
 /*body*/
-#main-div {
+.main-div {
     text-align: center;
 }
 
-#main-div p {
+.main-div p {
     width: 50%;
     margin: auto;
     margin-bottom: 15px;
@@ -129,3 +129,6 @@ nav {
     color: #d9534f;
 	transition: 0.1s;
 }
+
+/*-- Google Map API ---*/
+#map {min-height: 360px;}
