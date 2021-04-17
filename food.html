@@ -85,17 +85,21 @@
 
     <!---div for img carousal-->
 
-    <div class="carousel-wrapper">
-      <div class="carousel">
-        <img class="carousel__photo initial" src="./assets/img/food1.jpg" alt="">
-        <img class="carousel__photo" src="./assets/img/food2.png" alt="">
-        <img class="carousel__photo" src="./assets/img/food3.png" alt="">
-        <img class="carousel__photo" src="./assets/img/food4.png" alt="">
+    <div class="carousel">
+
+      <button class="carousel__button previous" id="previous"><</button>
+
+      <div class="carousel-img">
+
+        <img class="active" src="./assets/img/food1.png" alt="">
+        <img src="./assets/img/food2.png" alt="">
+        <img src="./assets/img/food3.png" alt="">
+        <img src="./assets/img/food4.png" alt="">
         
-          
-        <div class="carousel__button--next"></div>
-        <div class="carousel__button--prev"></div>
-      </div>
+       </div>
+
+       <button class="carousel__button next" id="next">></button>
+
     </div>
 
     <!---div for google maps API-->
@@ -147,9 +151,6 @@
 
     <script src="assets/js/map.js"></script>
     <script src="assets/js/script.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
-    crossorigin="anonymous">
-  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </body>
 </html>
