@@ -122,6 +122,12 @@ Furthermore, users will have the visual and interactive aid of Google Maps to ge
 * Functioning contact form. 
 
 # Technology Used
+* Bootstrap
+* BeFunky used for resizing images used. 
+* Upsplash used to source images.
+* GitHub.
+* Jquery. 
+
 ## syntax
 ## frameworks & libraries
 

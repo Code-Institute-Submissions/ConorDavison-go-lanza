@@ -1,8 +1,13 @@
+//Code taken and amended for my project from - https://codepen.io/balboacodes/pen/NWGwxLY?editors=0010//
+
+
 const carouselImages = document.querySelector('.carousel-img');
 const images = document.querySelectorAll('.carousel-img img');
 const carouselButtons = document.querySelectorAll('.carousel__button');
 const numberOfImages = document.querySelectorAll('.carousel-img img').length;
 
+
+//img index tells us what img we are curently on// 
 let imageIndex = 1;
 let translateX = 0;
 
