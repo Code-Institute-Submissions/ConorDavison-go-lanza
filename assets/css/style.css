@@ -104,10 +104,26 @@ nav {
 
 
 /*list items on each page*/
+.carousal-content {
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: solid black;
+}
+
+.carousal-content a {
+    text-decoration: none;
+}
 
 ol {
     list-style-type: upper-alpha;
     list-style-position: inside;
+}
+
+/* Description Div for each page */
+.description-div {
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: solid black;
 }
 
 /*---Footer ---*/
