@@ -13,12 +13,6 @@ function initMap() {
         lat: 29.00048217606729, 
         lng:-13.490349575249473
 
-    }, {
-        lat: 41.084045,
-        lng: -73.874256
-    }, {
-        lat: 40.754932,
-        lng: -73.984016
     }];
 
     var markers = locations.map(function(location, i) {

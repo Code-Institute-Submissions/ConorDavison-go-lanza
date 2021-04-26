@@ -20,7 +20,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!--Google Map API-->
     <script
       defer
@@ -85,28 +86,35 @@
 
     <!---div for img carousal-->
 
-    <div class="carousel">
+    <div class="slider">
 
-      <button class="carousel__button previous" id="previous"><</button>
+      <div class="slide-viewer">
 
-      <div class="carousel-img">
+      
 
-        <img class="active img-thumbnail" src="./assets/img/la-bohemia.png" alt="">
-        <img class="img-thumbnail" src="./assets/img/food2.png" alt="">
-        <img class="img-thumbnail" src="./assets/img/casa-thomas.png" alt="">
-        <img class="img-thumbnail" src="./assets/img/casa-thomas-food.png" alt="">
-        <img class="img-thumbnail" src="./assets/img/cesare.png" alt="">
-        <img class="img-thumbnail" src="./assets/img/cesare-food.png" alt="">
-        <img class="img-thumbnail" src="./assets/img/pizzeria55.png" alt="">
-        <img class="img-thumbnail" src="./assets/img/avenida55-food.png" alt="">
-        <img class="img-thumbnail" src="./assets/img/mumbaimasala1.png" alt="">
-        <img class="img-thumbnail" src="./assets/img/mumbaimasala-food.png" alt="">
+        <div class="slide-group">
+
+        <div class="slide slide-1"><img class="active img-thumbnail" src="./assets/img/la-bohemia.png" alt=""></div>
+        <div class="slide slide-2"><img class="img-thumbnail" src="./assets/img/food2.png" alt=""></div>
+        <div class="slide slide-3"><img class="img-thumbnail" src="./assets/img/casa-thomas.png" alt=""></div>
+        <div class="slide slide-4"><img class="img-thumbnail" src="./assets/img/casa-thomas-food.png" alt=""></div>
+        <div class="slide slide-5"><img class="img-thumbnail" src="./assets/img/cesare.png" alt=""></div>
+        <div class="slide slide-6"><img class="img-thumbnail" src="./assets/img/cesare-food.png" alt=""></div>
+        <div class="slide slide-7"><img class="img-thumbnail" src="./assets/img/pizzeria55.png" alt=""></div>
+        <div class="slide slide-8"><img class="img-thumbnail" src="./assets/img/avenida55-food.png" alt=""></div>
+        <div class="slide slide-9"><img class="img-thumbnail" src="./assets/img/mumbaimasala1.png" alt=""></div>
+        <div class="slide slide-10"><img class="img-thumbnail" src="./assets/img/mumbaimasala-food.png" alt=""></div>
+
+        <div class="slide-btns"></div>
         
        </div>
+      </div>
 
-       <button class="carousel__button next" id="next">></button>
+     
 
     </div>
+
+    <hr>
 
     <div class="col-12 carousal-content">
       <ol>

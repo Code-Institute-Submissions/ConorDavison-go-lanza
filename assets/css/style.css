@@ -11,6 +11,7 @@ body {
     background-image: url(../img/golanza.png);
     background-position: center center;
 	background-size: cover;
+    background-color: #f9f9f9
 }
 
 #title {
@@ -24,8 +25,7 @@ body {
 h1 {
     letter-spacing: 10px;
     color: #e35c27;
-    font-size: 50px;
-    text-align: center;
+    font-size: 40px;
     text-transform: uppercase;
 }
 
@@ -44,12 +44,12 @@ nav {
     display: inline-flex;
     float: right;
     margin-top: 10px;
-    margin-right: 20px;
-    padding: 5px, 0px, 0px, 10px;
+    margin-right: 10px;
+    padding: 5px, 0px, 0px, 5px;
 }
 
 #nav li {
-	float: none;
+	float: right;
 	margin-right: 5px;
 	display: inline;
 	text-align: center;
@@ -58,7 +58,6 @@ nav {
 #nav a {
     text-decoration: none;
 	color: #e35c27;
-	margin: 5px;
 	text-transform: uppercase;
 }
 
@@ -66,7 +65,6 @@ nav {
 	color: #e35c27;
 	transition: 0.1s;
 	border-top: 1px solid #e35c27;
-	border-bottom: 1px solid #e35c27;
     text-transform: uppercase;
 }
 
@@ -103,7 +101,7 @@ nav {
 }
 
 
-/*list items on each page*/
+/*list items on each page and carousal styling*/
 .carousal-content {
     text-align: center;
     background-color:rgba(255, 255, 255, 0.5);
@@ -119,6 +117,43 @@ ol {
     list-style-position: inside;
 }
 
+figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+.slide-viewer {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide {
+    width: 400px;
+    height: 100%;
+    display: none;
+    margin: 0 auto;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+.slide-btns {
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    padding: 20px;
+}
+
 /* Description Div for each page */
 .description-div {
     text-align: center;
@@ -130,10 +165,7 @@ ol {
 .social-icons {
 	font-size: 50px;
 	margin: 30px;
-	display: inline;
-	margin-top: 10px;
 	color: white;
-    
 }
 
 .icon-div{

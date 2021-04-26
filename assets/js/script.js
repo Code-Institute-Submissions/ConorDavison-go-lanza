@@ -1,37 +1,67 @@
-//Code taken and amended for my project from - https://codepen.io/balboacodes/pen/NWGwxLY?editors=0010//
+$('.slider').each(function() { //For every slider    
+  var $this = $(this); // Ger current slider 
+  var $group = $this.find('.slide-group'); // Get the slide-group
+  var $slides = $this.find('.slide'); 
+  var buttonArray = [];
+  var currentIndex = 0;
+  var timeout; // Used to store timer
 
+  function move(newIndex) {
+    var animateLeft, slideLeft;
 
-const carouselImages = document.querySelector('.carousel-img');
-const images = document.querySelectorAll('.carousel-img img');
-const carouselButtons = document.querySelectorAll('.carousel__button');
-const numberOfImages = document.querySelectorAll('.carousel-img img').length;
+    advance(); // When slide moves call advance()
 
-
-//img index tells us what img we are curently on// 
-let imageIndex = 1;
-let translateX = 0;
-
-carouselButtons.forEach(button => {
-  button.addEventListener('click', (event) => {
-    if (event.target.id === 'previous') {
-      if (imageIndex !== 1) {
-        imageIndex--;
-        translateX += 400;
-      }
-    } else {
-      if (imageIndex !== numberOfImages) {
-        imageIndex++;
-        translateX -= 400;
-      }
+    if ($group.is(':animated') || currentIndex === newIndex) {
+      return;
     }
-    
-    carouselImages.style.transform = `translateX(${translateX}px)`;
-    images.forEach((image, index) => {
-      if (index === imageIndex - 1) {
-        image.classList.add('active');
-      } else {
-        image.classList.remove('active');
-      }
+    buttonArray[currentIndex].removeClass('active');
+    buttonArray[newIndex].addClass('active');
+
+    if (newIndex > currentIndex) {
+      slideLeft = '100%';
+      animateLeft = '-100%';
+    }
+    else {
+      slideLeft = '-100%';
+      animateLeft = '100%';
+    }
+
+    $slides.eq(newIndex).css({left: slideLeft, display: 'block'});
+    $group.animate({left:animateLeft} , function(){
+      $slides.eq(currentIndex).css ({display: 'none'});
+      $slides.eq(newIndex).css({left: 0});
+      $group.css({left: 0});
+      currentIndex = newIndex
     });
+    }
+  
+    function advance() {
+      clearTimeout(timeout);
+      timeout = setTimeout(function(){
+        if (currentIndex < ($slides.length - 1)) {
+          move(currentIndex + 1);
+        } else {
+          move (0);
+        }
+    }, 4000)
+    
+  }
+
+  $.each($slides,function(index) {
+    //Create Button
+    var $button = $('<button type="button" class="slide-btn">&bull;</button>');
+    if (index === currentIndex){
+      $button.addClass('active');
+    }
+    $button.on('click', function(){
+      move(index);
+    }).appendTo($this.find('.slide-btns'));
+    buttonArray.push($button);
   });
-});
+
+  advance();
+
+})
+
+
+
