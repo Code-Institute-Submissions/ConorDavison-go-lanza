@@ -125,6 +125,7 @@ Furthermore, users will have the visual and interactive aid of Google Maps to ge
 * Bootstrap
 * BeFunky used for resizing images used. 
 * Upsplash used to source some imagery.
+* Trip Advisor also used fro some images and information.
 * GitHub.
 * Jquery. 
 * Weather widgit code sourced from weatherwidgit.io
