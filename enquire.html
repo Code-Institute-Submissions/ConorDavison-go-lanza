@@ -65,49 +65,26 @@
       </div>
     </header>
 
-    <hr />
+    <hr/>
 
-    <div class="main-div">
-      <p>
-        Welcome to Go Lanza! This website aims to give you a little insight into
-        the experiances to be had on the island of Lanzarote. Please, navigate
-        through this site to find the best spots for food, the main attractions
-        and the hidden gems that have been found from previous visits. There is
-        fun to be had for everyone who visits this historic and magical island.
-      </p>
-      <aside> <a class="weatherwidget-io" href="https://forecast7.com/en/28d04n15d58/lanzarote/" data-label_1="LANZAROTE" data-label_2="WEATHER" data-days="5" data-theme="pure" >LANZAROTE WEATHER</a></aside>
-
-      <div class="row three-sections">
-        <div class="col-md-4 food-div">
-          <h2>Food</h2><i class="fas fa-utensils"></i>
-          <p>
-            Lanzarote is a haven of excellent food, with something for everyone.
-          </p>
-          <a href="food.html">
-            <button class="btn btn-outline-danger explore-btn align-bottom">Explore!</button>
-          </a>
+    <div class="row">
+      <div class="col-12"> 
+        <form id="contact-form" onsubmit="return sendMail(this);">
+        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+        <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email"
+            required />
+        <textarea rows="5" name="comment" id="comment" class="form-control"
+            placeholder="We'd love to hear from you..." required></textarea>
+        <div class="form-row text-center">
+            <div class="col">
+                <button type="submit" class="btn btn-danger">Send!</button>
+            </div>
         </div>
-        <div class="col-md-4 visit-div">
-          <h2>Places to Visit</h2><i class="fas fa-binoculars"></i>
-          <p>
-            If you feel like exploring Lanzarote offers amazing experiences.
-          </p>
-          <a href="visit.html">
-            <button class="btn btn-outline-danger explore-btn align-bottom">Explore!</button>
-          </a>
-        </div>
-        <div class="col-md-4 gem-div">
-          <h2>Hidden Gems</h2><i class="fas fa-gem"></i>
-          <p>
-            See the hidden gems, the lesser known
-            wonders of Lanzarote.
-          </p>
-          <a href="gems.html">
-            <button class="btn btn-outline-danger explore-btn align-bottom">Explore!</button>
-          </a>
-        </div>
+        </form>
       </div>
     </div>
+   
+
 
     <footer>
       <div class="icon-div">
@@ -130,8 +107,9 @@
 <script
 defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5kHjKlT6Vl1wl1SnpB5UImZkdMGjvFOo&callback=initMap"
-></script> 
-<script src="assets/js/weather.js"></script> 
+></script>  
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script src="assets/js/map.js"></script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>
