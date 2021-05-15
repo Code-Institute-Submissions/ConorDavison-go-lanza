@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(':header').fadeIn(slow)
+    $('h3').fadeIn(slow)
 })
 
 
