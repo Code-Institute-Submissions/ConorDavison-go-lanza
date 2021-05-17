@@ -205,13 +205,24 @@ header{
     }
     
 
-    /*---enquire.html ----*/
+/*---enquire.html ----*/
 
-    #contact-form {
-        margin: 0 auto;
-        text-align: center;
-        max-width: 550px;
-        max-height: 550px;
+#contact-form {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 550px;
+    max-height: 550px;
+    }
+
+/*--- BODY FADE IN ---*/
+
+.fade-out {
+    opacity: 0; 
+    }
+
+.fade-transition {
+    transition-property: opacity; 
+    transition-duration: 2s; 
     }
 
 
