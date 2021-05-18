@@ -1,7 +1,7 @@
 //body to fade in//
-const body = document.querySelector('body');
+var body = document.querySelector('body');
 
-const fade = () => {
+ function fade() {
     setTimeout(() => {
         body.classList.toggle('fade-out'); 
     }, 1000);

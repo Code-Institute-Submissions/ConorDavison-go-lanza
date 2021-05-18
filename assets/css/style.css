@@ -14,6 +14,8 @@ body {
     background-color: #f9f9f9
 }
 
+/*---Headings---*/
+
 #title {
     font-family: 'Londrina', sans-serif;
 }
@@ -34,18 +36,19 @@ h2 {
     color: #e35c27;
 }
 
-/*---Header---*/
+
 header{
     display: inline;
 }
 
+/*---Nav---*/
 
 #nav {
     display: inline-flex;
     float: right;
     margin-top: 10px;
     margin-right: 10px;
-    padding: 5px, 0px, 0px, 5px;
+    padding: 5px 0px 0px 5px
 }
 
 #nav li {
@@ -73,7 +76,7 @@ header{
     text-transform: uppercase;
 }
 
-/*body*/
+/*---body---*/
 .main-div {
     text-align: center;
 }
@@ -113,6 +116,7 @@ header{
     text-align: center;
     background-color:rgba(255, 255, 255, 0.5);
     border: solid black;
+    margin: 0 auto
 }
 
 /*---Footer ---*/
@@ -139,10 +143,13 @@ header{
 }
 
 /*-- Google Map API ---*/
-#map {min-height: 360px;}
+#map {min-height: 360px;
+    margin: 0 auto
+}
+
 
 /*--img carousal ---*/
-.carousal-caption {
+.carousel-caption {
     background: rgba(255, 255, 255, 0.75);
     color: black;
 }
@@ -224,8 +231,3 @@ header{
     transition-property: opacity; 
     transition-duration: 2s; 
     }
-
-
-
-
-
