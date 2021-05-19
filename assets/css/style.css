@@ -102,6 +102,11 @@ header{
     border: solid black;
 }
 
+.card-icon {
+    margin: 5px;
+    
+}
+
 
 
 
@@ -225,3 +230,8 @@ header{
     transition-property: opacity; 
     transition-duration: 2s; 
     }
+
+#footer {
+    margin-top: 15px;
+}
+

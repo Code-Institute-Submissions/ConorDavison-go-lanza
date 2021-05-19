@@ -9,4 +9,14 @@ var body = document.querySelector('body');
 
 body.addEventListener('load', fade()); 
 
+//keep footer at bottom of viewport - code taken https://www.youtube.com/watch?v=Sau3hn7zEUY//
+$(document).ready(function() {
+    let bodyHeight = $(document).outerHeight()
+    let footerHeight = $('#footer').outerHeight()
+    
+    let bodyWrapperHeight = bodyHeight - footerHeight
+    $('#body-wrapper').css('height',`${bodyWrapperHeight}`)
+    })
+    
+
 
