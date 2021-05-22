@@ -18,6 +18,14 @@ $(document).ready(function() {
     $('#body-wrapper').css('height',`${bodyWrapperHeight}`);
     })
 
+    //reset form 
+    function submitForm() {
+        $("#contact-form").submit();
+        $('input[type="name"]').val('');
+        $('input[type="email"]').val('');
+        $('input[type="text"], textarea').val('');
+      }
+
 
   
     

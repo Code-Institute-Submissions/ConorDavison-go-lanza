@@ -21,7 +21,7 @@ function initMap() {
       imagePath:
         "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
-  }
+  } // coords for locations in slide show//
   const locations = [
     {lat: 29.00048217606729, 
     lng:-13.490349575249473},
