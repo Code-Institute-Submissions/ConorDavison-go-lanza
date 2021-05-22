@@ -2,6 +2,40 @@
 
 # Go Lanza
 
+![Mockup](assets/img/mock-up.png)
+
+## [Table of Contents]()
+- [Project Goals](#Project-goals)
+
+- [User Stories](#User-Stories)
+  - [User Goals](#User-Goals)
+  - [New User Goals](#New-User-Goals)
+  - [Returning User Goals](#Returning-User-Goals)
+  - [Owner Goals](#Owner-Goals)
+  - [User Potential](#User-Potential)
+  - [This Website](#This-Website)
+
+- [User Design](#User-Design)
+  - [Strategy](#Strategy)
+  - [Scope](#Scope)
+  - [Future Scope](#Future-Scope)
+  - [Structure](#Structure)
+  - [Design](#Design)
+  - [Color Scheme](#Color-Scheme)
+  - [Typography](#Typograpghy)
+  - [Imagery](#Imagery)
+
+- [Wireframes](#Wireframes)
+- [Features](#Features)
+- [Technology Used](#Technology-Used)
+- [Syntax](#Syntax)
+- [Testing](#Testing)
+- [Deployment](#Deployment)
+
+
+  
+
+
 ## Project Goals
 This is the main website for a fictitious tourism company who aim to educate visitors and potential visitors to the island of Lanzarote. 
 The Go Lanza website will be responsive on all devices focusing on mobile first design, also ensuring visitors have a unique user experience. 
@@ -114,6 +148,9 @@ Furthermore, users will have the visual and interactive aid of Google Maps to ge
   The icons will be relevant to the different section headings of the site.
 
 # Wireframes
+I Used Balsamiq to generate my Wireframes.
+
+![Wireframes](assets/img/golanza-wireframe.png)
 
 
 # Features
@@ -128,10 +165,54 @@ Furthermore, users will have the visual and interactive aid of Google Maps to ge
 * Trip Advisor also used fro some images and information.
 * GitHub.
 * Jquery. 
-* Weather widgit code sourced from weatherwidgit.io
+* Weather widgit code sourced from weatherwidgit.io.
+* EmailJS.
+* Google Maps API.
+* Responsive Carousal
 
-## syntax
-## frameworks & libraries
+## Syntax
+
+### HTML5
+
+- HTML5 is a markup language used for structuring.
+
+### CSS
+
+- Cascading Style Sheets (CSS) is a style sheet language used for describing and adding desing to the presentation of a website.
+
+### Javascript
+
+- Javascript object-oriented language with first-class functions and objects.
+### JQuery
+- jQuery is a JavaScript library that allows web developers to add extra functionality to their websites with ease. 
 
 # Testing
+* All navigations links tested across all pages, no issues.
+* Text fields in contact form all working correctly.
+* Site fully responsive to all breakpoints.
+## Functionality Testing
+- I used Chrome developer tools throughout the creation and devlopemnt of this site.
+## Combatability Testing
+-  The site has been tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
+## Code Validation
+- HTML has been passed through W3 Validator with no issues or warnings. 
+- CSS has passed through W3 JigSaw validator with no issues. 
+- JS - Passed through JSHint with no major issues some warnings to advise certain synatx is available in 'ES6 (use 'esversion: 6')'.
+
+
 # Deployment 
+* To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+* Log into GitHub. From the list of repositories on the screen
+* Select North-West-Golf-Soiciety.
+* Select Settings.
+* Scroll down to the GitHub Pages section.
+* Under Source click the drop-down menu labelled None
+* Select Master Branch On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+* Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+* To clone this project from GitHub:
+
+* Follow this link to the Project GitHub repository. Under the repository name, click "Clone or download".
+* In the Clone with HTTPs section, copy the clone URL for the repository. In your local IDE open Git Bash.
+* Type git clone, and then paste the URL you copied in Step 3. git clone https://github.com/USERNAME/REPOSITORY Press Enter.
+* Your local clone will be created. Further reading and troubleshooting on cloning a repository from GitHub here. Deployment: The site will be deployed by https://pages.github.com/
