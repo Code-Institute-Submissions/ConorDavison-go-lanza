@@ -27,6 +27,7 @@
 
 - [Wireframes](#Wireframes)
 - [Features](#Features)
+  - [Future Features](#Future-Features)
 - [Technology Used](#Technology-Used)
 - [Syntax](#Syntax)
 - [Testing](#Testing)
@@ -161,6 +162,13 @@ I Used Balsamiq to generate my Wireframes.
 * Functioning Nav bar with working links.
 * Responsive images.
 * Functioning contact form. 
+* Buttons that utilise Jquery for further interactivity.
+
+## Future Features
+- Further features could include other images of other attractions.
+- Utlising the Trip Advisor API for further information.
+- Adding further JavaScript to make website more interactive such as when you click on markers a small description of what that marker is for pops up.
+
 
 # Technology Used
 ### BeFunky 
@@ -259,5 +267,5 @@ I Used Balsamiq to generate my Wireframes.
 
 ## Google Map
 - Google Map API used for map features within project.
-- 
+ 
   
