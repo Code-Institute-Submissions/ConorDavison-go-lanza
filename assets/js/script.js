@@ -16,7 +16,7 @@ body.addEventListener('load', fade());
     
         let bodyWrapperHeight = bodyHeight - footerHeight;
         $('#body-wrapper').css('height',`${bodyWrapperHeight}`);
-        })
+        });
 
     //reset form after submission
     function submitForm() {
