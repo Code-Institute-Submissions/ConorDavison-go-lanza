@@ -2,7 +2,7 @@
 
 # Go Lanza
 
-![Mockup](assets/img/mock-up.png)
+![Mockup](assets/img/mockup1.png)
 
 ## [Table of Contents]()
 - [Project Goals](#Project-goals)
@@ -30,7 +30,11 @@
 - [Technology Used](#Technology-Used)
 - [Syntax](#Syntax)
 - [Testing](#Testing)
+  - [Code Validation](#Code-Validation)
+  - [User Story Testing](#user-stories-testing)
+  - [Owner Story Testing](#owner-stories-testing)
 - [Deployment](#Deployment)
+- [Credit](#credits)
 
 
   
@@ -159,18 +163,22 @@ I Used Balsamiq to generate my Wireframes.
 * Functioning contact form. 
 
 # Technology Used
-* Bootstrap
-* BeFunky used for resizing images used. 
-* Upsplash used to source some imagery.
-* Trip Advisor also used fro some images and information.
-* GitHub.
-* Jquery. 
-* Weather widgit code sourced from weatherwidgit.io.
-* EmailJS.
-* Google Maps API.
-* Responsive Carousal
+### BeFunky 
+  - used for resizing images used.
 
-## Syntax
+### Upsplash 
+  - used to source some imagery.
+### Trip Advisor 
+  - also used for some images and information.
+* GitHub.
+### Weather API 
+* Weather widgit code sourced from weatherwidgit.io.
+### EmailJS.
+  - This allowed me to make a fully responsive and dynamic fonctact form.
+### Responsive Carousal
+  - some of the code for this was taken from bootstrap.
+
+## Syntax & Languages
 
 ### HTML5
 
@@ -190,6 +198,8 @@ I Used Balsamiq to generate my Wireframes.
 * All navigations links tested across all pages, no issues.
 * Text fields in contact form all working correctly.
 * Site fully responsive to all breakpoints.
+## Google Lighthouse
+* Google Lighthouse report generated a SEO of 91 and accessability of 90. Unfortunately performace was marked at 76 due to imagery used and loading times of some pages. Best preactices given a grade of 89.
 ## Functionality Testing
 - I used Chrome developer tools throughout the creation and devlopemnt of this site.
 ## Combatability Testing
@@ -199,12 +209,34 @@ I Used Balsamiq to generate my Wireframes.
 - CSS has passed through W3 JigSaw validator with no issues. 
 - JS - Passed through JSHint with no major issues some warnings to advise certain synatx is available in 'ES6 (use 'esversion: 6')'.
 
+## User Stories Testing
+- As a user, I want to be able to access the website, regardless of the device I am using.
+  > The website has been tested across virtual different devices with no issues.
+
+- As a user, I want to be able to easily navigate to other sections of the website regardless of the current section I'm viewing.
+  > Fully responiive navigation bar that allows you to visit any part of the site with ease.
+
+- As a user, I expect all links of the site to be in full working order - and to be able to easily access any social media accounts relative to the company. 
+  > All links have been tested and confirmed as working.  
+
+## Owner Stories Testing
+- Publicity for the attractions and experiances that Lanzarote has to offer.
+  > The site is a hub that can be used for potential visitors, the site allows users to see photos of attractions. 
+
+- Bigger audience so as many people as possible are aware of what you can do when visiting.
+  > Site has an SEO of 91.
+
+- To be able to answer and reply to queires users may have.
+  > Site has a fully functional contact form with EmailJS ensuring ane queries can be responded to.
+
+- Use interactive methods such as Google Maps so users can ascertain the location of points of interest.
+  > Google Maps API succeefully implemented onto site.
 
 # Deployment 
 * To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
 * Log into GitHub. From the list of repositories on the screen
-* Select North-West-Golf-Soiciety.
+* Select Go-Lanza.
 * Select Settings.
 * Scroll down to the GitHub Pages section.
 * Under Source click the drop-down menu labelled None
@@ -216,3 +248,16 @@ I Used Balsamiq to generate my Wireframes.
 * In the Clone with HTTPs section, copy the clone URL for the repository. In your local IDE open Git Bash.
 * Type git clone, and then paste the URL you copied in Step 3. git clone https://github.com/USERNAME/REPOSITORY Press Enter.
 * Your local clone will be created. Further reading and troubleshooting on cloning a repository from GitHub here. Deployment: The site will be deployed by https://pages.github.com/
+
+# Credit
+* To complete this project I used the Code Institute student template: gitpod full template
+* Ideas and knowledge library:
+  - w3schools.com
+  - css-tricks.com
+  - getbootstrap.com/docs I used code for navbar, jumbotron and card from Bootstrap.
+  - Youtube for certain tutorial (all mentioned within comments in code)
+
+## Google Map
+- Google Map API used for map features within project.
+- 
+  

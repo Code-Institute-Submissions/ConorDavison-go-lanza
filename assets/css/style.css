@@ -115,6 +115,8 @@ header{
 
 
 
+
+
 /* Description Div for each page */
 .description-div {
     text-align: center;
@@ -122,6 +124,12 @@ header{
     border: solid black;
     margin: 15px
 }
+
+.buttons {
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 /*---Footer ---*/
 .social-icons {

@@ -10,24 +10,31 @@ var body = document.querySelector('body');
 body.addEventListener('load', fade()); 
 
 //keep footer at bottom of viewport - code taken https://www.youtube.com/watch?v=Sau3hn7zEUY//
-$(document).ready(function() {
-    let bodyHeight = $(document).outerHeight();
-    let footerHeight = $('#footer').outerHeight();
+    $(document).ready(function() {
+        let bodyHeight = $(document).outerHeight();
+        let footerHeight = $('#footer').outerHeight();
     
-    let bodyWrapperHeight = bodyHeight - footerHeight;
-    $('#body-wrapper').css('height',`${bodyWrapperHeight}`);
-    })
+        let bodyWrapperHeight = bodyHeight - footerHeight;
+        $('#body-wrapper').css('height',`${bodyWrapperHeight}`);
+        })
 
-    //reset form 
+    //reset form after submission
     function submitForm() {
         $("#contact-form").submit();
         $('input[type="name"]').val('');
         $('input[type="email"]').val('');
         $('input[type="text"], textarea').val('');
-      }
+        } 
 
 
+
+    // show and hide the description divs for each page
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $(".description-div").hide();
+    });
+    $("#show").click(function(){
+        $(".description-div").show();
+    });
+      });
   
-    
-
-
