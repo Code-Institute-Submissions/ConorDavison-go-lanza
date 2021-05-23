@@ -34,6 +34,9 @@
   - [Code Validation](#Code-Validation)
   - [User Story Testing](#user-stories-testing)
   - [Owner Story Testing](#owner-stories-testing)
+  - [New User Story Testing](#new-user-stories-testing)
+  - [Returning User Story Testing](#returning-user-stories-testing)
+
 - [Deployment](#Deployment)
 - [Credit](#credits)
 
@@ -239,6 +242,36 @@ I Used Balsamiq to generate my Wireframes.
 
 - Use interactive methods such as Google Maps so users can ascertain the location of points of interest.
   > Google Maps API succeefully implemented onto site.
+
+## New User Stories Testing
+
+- As a new user, I want it to be immdiately obvious what the website is about and what it can offer me.
+  > Paragraph that shows immdiatatly onload allows the user to discover what the site is about. Clear labels indicate what resources and each page will include. 
+
+- As a new user, I want to know where the best places to eat are on the Island. 
+    > First page allows the user to flick through images of popular restaurants on the island. With a map directly underneath showing locations clearly with markers.
+
+- As a new user, I want to have visual aids so I can see what is being described and be more informed.
+  >  Each page has carousel showing multiple images with captions.
+
+- As a new user, I want to be able to access any social media accounts the tourism site has to find additional information.
+  > In footer there are testing working links to relavent social media channels, should the accounts exist.
+
+- As a new user I would like to find a contact form so I can get in touch for any queries.  
+  > Contactg form is fully functional for any queries. 
+
+- As a new user, I want a clear navigation menu, so I can operate the site easily.
+  Menu is fully responsive across all devices.
+
+## Returning User Stories Testing
+* As a returning user, I would like to look for further content and information to heighten my time on the Island.
+  >The site has a contact form that cna be used to enquire about further content on the webiste
+
+* As a returning user, I want to be able to see the location of other attractions and points of interest.
+  > This can be achieved using Google Map API.
+
+* As a returning user, I want to find out more detailed information on specific locations, attractions and restaurants.
+  > The site encourages users for futher information to look on trip advisor webiste and offers a link to the site on the index.html.
 
 # Deployment 
 * To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:

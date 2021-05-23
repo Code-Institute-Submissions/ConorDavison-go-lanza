@@ -65,8 +65,7 @@ header{
 }
 
 #nav a.active {
-    background: #e35c27;
-    color: #f9f9f9;
+    text-decoration: underline;
 }
 
 #nav a:hover {
@@ -84,6 +83,11 @@ header{
 .main-div p {
     margin: 15px;
     margin-bottom: 20px;
+}
+
+.main-div a {
+    text-decoration: underline;
+    color: inherit;
 }
 
 /*three sections*/
