@@ -214,7 +214,9 @@ I Used Balsamiq to generate my Wireframes.
 ## Functionality Testing
 - I used Chrome developer tools throughout the creation and devlopemnt of this site.
 ## Combatability Testing
--  The site has been tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
+-  The site has been tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tools and Chrome developer tools. 
+### Known bug
+- At time of submission when viewing site on virtual tablet the title didnt appear to be in full view when screen loaded. 
 ## Code Validation
 - HTML has been passed through W3 Validator with no issues or warnings. 
 - CSS has passed through W3 JigSaw validator with no issues. 
